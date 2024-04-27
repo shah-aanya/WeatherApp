@@ -87,9 +87,6 @@ def ComparePageUI():
     comp_button = tk.Button(toplevel_cw, bg = '#c1c7b5', fg = fgcolor, text = 'Submit', font = ( 'comic', 30), command= CompareWeather)
     comp_button.place(relwidth= 0.4, relheight = 0.1, rely= 0.7, relx= 0.3)
 
-
-
-
 def HomePageUI():
     global root, entry
     root = tk.Tk()
@@ -126,10 +123,6 @@ def HomePageUI():
             button.place(relwidth= 0.3, relheight = 0.2, rely= relY, relx= relX)
             relY += 0.24
         relX += 0.7
-
-
-    
-
 
 HomePageUI()
 root.mainloop()
